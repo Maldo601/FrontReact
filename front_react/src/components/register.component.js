@@ -107,7 +107,7 @@ export default class Register extends Component {
                 // TODO: Enviar message desde Backend, redirigir al Login despues de 5 segundos.
                 response => {
                     this.setState({
-                        message: "200 OK -> Te has registrado correctamente.",
+                        message: response.data.message,
                         successful: true
                     });
                 },
