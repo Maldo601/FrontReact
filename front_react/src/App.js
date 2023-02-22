@@ -6,6 +6,7 @@ import "./App.css";
 import AuthService from "./services/auth.service";
 import Login from "./components/login.component";
 import Home from "./components/home.component";
+import Register from "./components/register.component";
 
 class App extends Component {
   constructor(props) {
@@ -94,6 +95,7 @@ class App extends Component {
             <Switch>
               <Route exact path={["/", "/home"]} component={Home} />
               <Route exact path="/login" component={Login} />
+              <Route exact path="/register" component={Register} />
              
             </Switch>
           </div>

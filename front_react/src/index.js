@@ -4,6 +4,9 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+/**
+ * TODO: Actualizar a React 18 y refactorizar codigo
+ */
 ReactDOM.render(
   <React.Fragment>
     <App />
